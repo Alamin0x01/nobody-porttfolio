@@ -8,22 +8,20 @@
 }
 .btn-primary {
   font-weight: 700;
-font-size: 20px;
-border: 0;
-padding: 18px 35px 36px ;
-  color: #FFFFFF;
+  font-size: 20px;
+  border: 0;
+  padding: 18px 35px 36px;
+  color: #ffffff;
   height: 64px;
-  background: #FD6E0A;
-border-radius: 5px;
+  background: #fd6e0a;
+  border-radius: 5px;
 }
-.header{
-  background: #FFF8F3;
-  background-image: url(/images/header_bg.png) , url(/images/developer.png);
+.header {
+  background: #fff8f3;
+  background-image: url(/images/header_bg.png), url(/images/developer.png);
   background-repeat: no-repeat;
-  background-position: bottom right , left;
-
+  background-position: bottom right, left;
 }
-
 
 /* Header and Navigation styles */
 nav {
@@ -38,68 +36,98 @@ nav {
 nav ul {
   display: flex;
   align-items: center;
-  
-} 
+}
 nav li {
   list-style: none;
   margin-left: 50px;
   /* banner style */
 }
- .baaner{
+.baaner {
   margin: 0px 196px;
 
-
-
-
-display: flex;
-align-items: center;}
-.baaner-title{font-weight: 600;
-  font-size: 45px;
-
+  display: flex;
+  align-items: center;
 }
-.baaner-sub-title{
+.baaner-title {
+  font-weight: 600;
+  font-size: 45px;
+}
+.baaner-sub-title {
   font-weight: 600;
   font-size: 85px;
   margin-bottom: 20px;
 }
-.baaner-bio{color: #757575;
+.baaner-bio {
+  color: #757575;
   font-weight: 400;
   font-size: 18px;
-margin-bottom: 20px;
-
+  margin-bottom: 20px;
 }
 
 /* main section  */
 
-main{max-width: 1140px;
-margin: 0 auto;}
-
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 
 /* about section  */
+.section {
+  margin-top: 130px;
+}
 
-.about{margin-top: 130px;
-  background: #FFF8F3;
+.about {
+  
+  background: #fff8f3;
   border-radius: 10px;
   padding: 131px 156px;
   text-align: center;
 }
-.section-title{
-margin-bottom: 30px;
+.section-title {
+  text-align: center;
+  font-weight: 700;
+font-size: 35px;
+  margin-bottom: 50px;
 }
-.section-bio{color: #757575;
+.section-bio {
+  color: #757575;
   font-size: 18px;
   margin-bottom: 30px;
-
 }
-.about-info-container{display: flex;
-justify-content: space-around;}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
 
-.info-title{font-size: 20px;
+.info-title {
+  font-size: 20px;
   color: #757575;
 }
-.info-bio{ 
-font-weight: 700;
-font-size: 20px;
-color: #474747;
+.info-bio {
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
+}
+/* what i do style */
 
+
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+.skill {
+  ackground: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.skill-title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 30;
+  margin-bottom: 20px;
+}
+.skill-bio {
+  color: #757575;
 }
