@@ -77,7 +77,6 @@ main {
 }
 
 .about {
-  
   background: #fff8f3;
   border-radius: 10px;
   padding: 131px 156px;
@@ -86,7 +85,7 @@ main {
 .section-title {
   text-align: center;
   font-weight: 700;
-font-size: 35px;
+  font-size: 35px;
   margin-bottom: 50px;
 }
 .section-bio {
@@ -110,7 +109,6 @@ font-size: 35px;
 }
 /* what i do style */
 
-
 .skills-container {
   display: flex;
   gap: 24px;
@@ -130,4 +128,34 @@ font-size: 35px;
 }
 .skill-bio {
   color: #757575;
+}
+/* resume style */
+.resume-content {
+  display: flex;
+  gap: 24px;
+}
+
+.resume-item {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.resume .title {
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+  margin-bottom: 10px;
+}
+.resume .sub.title {
+  color: #757575;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.resume .bio {
+  color: #757575;
+}
+.resume-buttom {
+  margin-top: 50px;
+  text-align: center;
 }
